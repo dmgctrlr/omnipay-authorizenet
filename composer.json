@@ -1,5 +1,5 @@
 {
-    "name": "dmgctrlr/authorizenet",
+    "name": "omnipay/authorizenet",
     "type": "library",
     "description": "Authorize.Net gateway for the Omnipay payment processing library",
     "keywords": [
@@ -12,7 +12,7 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/dmgctrlr/omnipay-authorizenet.git",
+    "homepage": "https://github.com/thephpleague/omnipay-authorizenet",
     "license": "MIT",
     "authors": [
         {
