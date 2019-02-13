@@ -45,8 +45,7 @@ class QueryBatchResponse extends AbstractQueryResponse
 
     public function getResultCode()
     {
-        $result = $this->xml2array($this->data->messages, true);
-        return $result['messages'][0]['resultCode'];
+        return $this->xml2array($this->data->messages, true)['resultCode'];
     }
 
     public function getData()
